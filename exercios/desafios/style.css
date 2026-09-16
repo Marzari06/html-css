@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "androids";
+    src: url(/fontes/idroid);
+}
+
+  
+    
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --cor0: #83e1ad;
+    --cor2:#1a5c37;
+    --cor3:blue;
+    --cor4:yellow;
+    --cor5:green;
+    --font-padrao: Arial, Helvetica, sans-serif;
+
+    
+}
+*{
+    margin:auto ;
+}
+
+body{
+    background-color:;
+
+    
+}
+h1{
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    font-family: "Bebas Neue", sans-serif;;
+}
+h2{
+    font-family: var(--font-padrao);
+}

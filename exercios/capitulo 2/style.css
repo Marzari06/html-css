@@ -1,0 +1,40 @@
+@charset "UTF-8";
+     
+     body{
+    background-color: blueviolet;
+    background-image: linear-gradient(to right, white, blue, red);
+}
+
+main{
+    background-image: linear-gradient(to right,orange , green);
+width: 600px;
+padding: 10px;
+margin: auto;
+border-radius: 10px;
+box-shadow: 10px 10px;
+
+
+
+}
+
+h1{
+    text-align: right;
+}
+
+
+h1#principal{
+    text-align: center;
+
+    color: brown;
+}
+
+h2.cafe{
+    text-align: justify;
+    
+    font-style: italic;
+}
+
+
+p{
+    font-style: italic;
+}

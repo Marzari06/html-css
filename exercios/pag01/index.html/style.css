@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+<style>
+    body {
+        background-color: aquamarine;
+    }
+    h1{
+        color: brown;
+        background-color: blueviolet;
+        
+    }
+    p {
+        color: palegoldenrod;
+
+    }
+    h2 {
+        color: blue;
+    }
+
+
+</style>

@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"android" ;
+    src: url("/");
+}
+:root{
+    --cor01:#ebe5c5;
+    --cor2:#83e1ad;
+    --cor3:#3ddc84;
+    --cor4:#2fa866;
+    --cor5:#1a5c37;
+    --cor6:#063d1e;
+     --font-padrao: Arial, Helvetica, sans-serif;
+     --font-destaque:"Bebas Neue", sans-serif;
+ 
+ 
+     --font-cursiva: "Edu NSW ACT Cursive", cursive;
+}
+
+
+
+
+p{
+    margin: 15px 0px 15px 0px;
+}
+main p {
+    text-align: justify;
+    text-indent: 15px;
+    font-size: 20px;
+    line-height: 30px;
+}
+main strong{
+    color: var(--cor5);
+    font-weight: bold;
+   
+}
+main  a :hover{
+    text-decoration: underline;
+    
+}
+main a {
+    
+     background-color: var(--cor2);
+    padding: 2px 6px;
+    text-decoration: none;
+}
+header > h1{
+
+    
+    font-family: var(--font-destaque);
+    color: white
+    
+
+
+    
+}
+main > h1{
+    
+    color: var(--cor2);
+}
+article > h2 {
+font-family: var(--font-cursiva);
+font-weight: normal;
+}
+    
+
+body{
+    background-color: var(--cor01) ;
+    a.externo::after{
+content: "\1F517";
+
+    }
+}
+header{
+    min-height: 150px;
+    background-image: linear-gradient(to bottom , var(--cor3) , var(--cor6)    );
+    text-align: center;
+    padding-top: 40px;
+}
+header >  h1{
+margin-bottom: 20px;
+text-shadow: 2px 2px 0px black;
+}
+header > p{
+font-family: var(--font-cursiva);
+font-size: 17px;
+max-width: 500px;
+margin: auto;
+padding-left: 10px;
+padding-right: 10px;
+color: white;
+text-shadow: 2px 2px 0px black;
+
+}
+nav{
+    background-color: #063d1e;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.901);
+    
+}
+nav > a{
+    padding: 10px;
+    color: #83e1ad;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+nav > a:hover{
+    background-color: #2fa866;
+    color: #063d1e;
+}
+main{
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 30px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+    background-color:blue ;
+    box-shadow: 10px 10px 10px;
+    padding-bottom: 10px;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+main  img{
+    width: 10px;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+main img.pequena{
+    width: 100%;
+    display: block;
+    margin: auto;
+
+    
+}
+
+main  h2{
+ 
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    text-indent: 10px
+}
+footer{
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+aside{
+  
+    margin: 30px;
+    background-color: var(--cor2);
+    border-radius: 10px;
+padding: 10px;
+    box-shadow: 3px 3px 8px black;
+    padding-bottom: 
+}
+aside > ol  {
+  list-style-position: inside;  
+  columns: 2;
+  list-style-type: "\1F5F8\00A0";
+
+  
+}
+aside > h3{
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+
+
+   background-color:var(--cor5); 
+   color: white;
+}
+
+
+aside  a{
+    background-color: #83e1ad;
+}
+
+div#video{
+    margin-bottom: 30px;
+    background-color: #063d1e;
+    margin: 0px -20px 30px -20px;
+padding: 20px;
+position: relative;
+padding-bottom: 50%;
+}
+div#video > iframe{
+position: absolute;
+top: 5%;
+left: 5%;
+width:90%;
+height: 90%;
+}
